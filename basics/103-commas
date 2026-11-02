@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -ap | LC_ALL=C sort -d | paste -sd ', ' -
